@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bromosapien</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-white bg-dark">
+      <a class="navbar-brand" href="/">Bromosapien</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/survey">Survey<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/api/bros">API</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="bg-dark text-primary m-5 p-5">
+      <h1 class="h1 text-center">Survey</h1>
+      <hr></hr>
+      <form>
+        <div class="form-group">
+          <label for="Name">Name</label>
+          <input type="text" class="form-control" id="userName" placeholder="Let the bros know your name!">
+        </div>
+        <div class="form-group">
+          <label for="image">Profile Photo</label>
+          <input type="text" class="form-control" id="userImage" placeholder="Provide a link to the bro-iest photo you got!">
+        </div>
+        <div class="form-group">
+          <label for="question1">Q1</label>
+          <select class="form-control" id="question1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question2">Q2</label>
+          <select class="form-control" id="question2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question3">Q3</label>
+          <select class="form-control" id="question3">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question4">Q4</label>
+          <select class="form-control" id="question4">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question5">Q5</label>
+          <select class="form-control" id="question5">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question6">Q6</label>
+          <select class="form-control" id="question6">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question7">Q7</label>
+          <select class="form-control" id="question7">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question8">Q8</label>
+          <select class="form-control" id="question8">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question9">Q9</label>
+          <select class="form-control" id="question9">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="question10">Q10</label>
+          <select class="form-control" id="question10">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" id="#submitButton">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1 class="h1" id="matchName"></h1>
+        <img src="" alt="brooooo" id="matchImage">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript">
+    $('#submitButton').on('click', function(event) {
+      event.preventDefault();
+
+      var userInput = {
+        name: $('#userName').val().trim(),
+        photo: $('#userPhoto').val().trim(),
+        scores: [
+          $('#question1').val().trim(),
+          $('#question2').val().trim(),
+          $('#question3').val().trim(),
+          $('#question4').val().trim(),
+          $('#question5').val().trim(),
+          $('#question6').val().trim(),
+          $('#question7').val().trim(),
+          $('#question8').val().trim(),
+          $('#question9').val().trim(),
+          $('#question10').val().trim()
+        ]
+      };
+
+      $.post('/api/friends', userInput)
+        .done(function(data) {
+
+          $('#userMatch').html(data.matchName);
+          $("#userMatchImage").attr("src", data.matchImage);
+
+          $('#modal1').modal('open');
+        });
+    });
+  </script>
+</body>
+
+</html>
